@@ -20,7 +20,7 @@ body {
   .container {
     display: flex;
     align-items: center; 
-    align text-align:center;
+    text-align:center;
   }
   .fav {
   border-radius: 20px;

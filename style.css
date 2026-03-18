@@ -15,8 +15,18 @@ body {
     text-align: center;
     line-height: 2.0;
   }
+ .ha{
 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    line-height: 2.0;
+  }
+.hw{
 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: centre;
+    line-height: 2.0;
+  }
   .container {
     display: flex;
     align-items: center; 

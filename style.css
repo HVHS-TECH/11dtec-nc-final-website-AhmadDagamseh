@@ -83,6 +83,10 @@ nav {
   display: flex;
   align-items: center;   
 
-.logo {
-  max-width: 250px;       
-  height: auto;
+navbar {
+    background-image: url("Footsite\ New.png");
+    min-height: 100px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 200%;

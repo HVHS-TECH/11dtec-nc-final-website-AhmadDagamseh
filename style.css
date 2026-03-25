@@ -36,8 +36,10 @@ body {
   border-radius: 20px;
 margin-left: 10px;
 margin-top: 30px;
-
-
+width: 100%;  /* Increase this value for more horizontal length */
+  height: 150px;   /* Keeps the logo from looking stretched */
+  max-width: 100%
+  
   }
 
  .sur {
@@ -79,4 +81,4 @@ body {
   aspect-ratio: 3 / 1;    
   object-fit: contain;    
 }
-
+ 

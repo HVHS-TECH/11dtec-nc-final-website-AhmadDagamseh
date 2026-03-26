@@ -90,12 +90,12 @@ body {
   padding: 20px;
 }
 
-/* Individual Card Styling */
+
 .driver-card {
   background-color: white;
   width: 250px;
-  border-radius: 20px; /* Rounded corners like your image */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-radius: 20px; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
   overflow: hidden;
   text-align: center;
   padding-bottom: 20px;

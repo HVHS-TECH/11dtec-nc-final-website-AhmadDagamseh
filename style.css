@@ -82,33 +82,40 @@ body {
   object-fit: contain;    
 }
  
-.containor{
-   display: flex;
-   justify-content: center;
-   margin-top: 100px; 
- }
-
-
-
-.card{
-    width: 3256px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
-    margin: 20px;
- }
-
- .card img{
-    width: 100%;
-    height: auto;
- }
-
- .content{
-    padding: 16px;
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to drop to next line on small screens */
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+  padding: 20px;
 }
 
-.content h2{
-    text-align: center;
-    font-size: 28px;
-    margin: 10px;
+/* Individual Card Styling */
+.driver-card {
+  background-color: white;
+  width: 250px;
+  border-radius: 20px; /* Rounded corners like your image */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.driver-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.driver-card h3 {
+  margin: 15px 0 10px;
+  font-family: Arial, sans-serif;
+}
+
+.driver-card p {
+  font-size: 12px;
+  color: #555;
+  padding: 0 15px;
+  line-height: 1.4;
 }

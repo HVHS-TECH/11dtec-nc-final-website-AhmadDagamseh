@@ -84,8 +84,8 @@ body {
  
 .card-container {
   display: flex;
-  flex-wrap: wrap; /* Allows cards to drop to next line on small screens */
-  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; 
+  gap: 20px; 
   justify-content: center;
   padding: 20px;
 }
@@ -103,7 +103,7 @@ body {
 }
 
 .driver-card img {
-  width: 50%;
+  width: 100%;
   height: auto;
   display: block;
 }

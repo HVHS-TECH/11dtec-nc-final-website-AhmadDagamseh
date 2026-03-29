@@ -93,9 +93,9 @@ body {
 
 .driver-card {
   background-color: white;
-  width: 250px;
+  width: 150px;
   border-radius: 20px; 
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+  box-shadow: 8px 8px 16px 0pxrgba(0,0,0,0.1); 
   overflow: hidden;
   text-align: center;
   padding-bottom: 20px;
@@ -103,7 +103,7 @@ body {
 }
 
 .driver-card img {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
 }

@@ -82,41 +82,4 @@ body {
   object-fit: contain;    
 }
  
-.card-container {
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 20px; 
-  justify-content: center;
-  padding: 20px;
-}
-
-
-.driver-card {
-  background-color: white;
-  width: 150px;
-  border-radius: 20px; 
-  box-shadow: 8px 8px 16px 0pxrgba(0,0,0,0.1); 
-  overflow: hidden;
-  text-align: center;
-  padding-bottom: 20px;
-  border: 5px solid #acacac;
-}
-
-.driver-card img {
-  width: 80%;
-  height: auto;
-  display: block;
-}
-
-.driver-card h3 {
-  margin: 15px 0 10px;
-  font-family: Arial, sans-serif;
-}
-
-.driver-card p {
-  font-size: 12px;
-  color: #555;
-  padding: 0 15px;
-  line-height: 1.4;
-}
 

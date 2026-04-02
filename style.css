@@ -1,71 +1,156 @@
-/* RESET */
-* {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
     margin: 0;
-    padding: 0;
 }
 
-/* BODY + BACKGROUND */
-body.home {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/056/702/255/non_2x/stylish-geometric-sports-background-with-sharp-edges-vector.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
+
+
+
+.logo {
+    margin-right: 100px;
+    justify-content: left;
+    border-radius: 30px;
+    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+   
+  }
+
+
+
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    /* width: 70%; */
+    margin: 0 auto;
+ }
+ 
+ #p1h1{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .containor{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+ }
+
+
+ .containor2{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-top: 100px;
+  }
+
+
+ .card{
+    width: 3256px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+ }
+
+
+ .card img{
+    width: 100%;
+    height: auto;
+ }
+
+
+ .content{
+    padding: 16px;
+}
+
+
+.content h2{
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+}
+
+
+footer{
     color: white;
+    background-color:rgb(30, 84, 199);
+
+
+    .cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    ul{
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    li{
+        padding: 0 15px;
+        margin-bottom: 16px;
+    }
+
+
+    a{
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+    }
 }
 
-/* NAVBAR */
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 12px 0;
-    background-color: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(6px);
-    display: flex;
+    padding: 10px;
+    background-color: #575757;
     justify-content: center;
-    gap: 30px;
 }
+
+
+
 
 .navbar li a {
     color: white;
-    padding: 10px 18px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
+    display: block;
+    text-align: center;
 }
+
+
+
 
 .navbar li a:hover {
-    background-color: rgba(255, 255, 255, 0.25);
-    border-radius: 6px;
+    background-color: #888888;
 }
 
-/* MAIN LAYOUT */
-.wrapper {
-    display: flex;
-    gap: 40px;
-    padding: 80px;
-    align-items: center;
-}
 
-/* LOGO */
-.logo {
-    width: 300px;
-    border-radius: 20px;
-    box-shadow: 8px 8px 16px rgba(0,0,0,0.5);
-}
 
-/* TEXT BOX */
-.pone {
-    background: rgba(0, 0, 0, 0.45);
-    padding: 25px;
-    border-radius: 12px;
-    max-width: 600px;
-    backdrop-filter: blur(4px);
-}
 
-#p1h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 32px;
-    font-weight: 700;
+.home {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/056/702/255/non_2x/stylish-geometric-sports-background-with-sharp-edges-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+   
+
+
+
+
+
+
+   
+

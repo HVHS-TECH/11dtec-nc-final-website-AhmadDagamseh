@@ -117,8 +117,13 @@ footer{
 }
 
 
-.navbar li a.active {
-    background-color: #04AA6D;
+body {
+  background-image: url("https://populous.com/uploads/2018/01/Tottenham-Hotspur-Stadium_1-1-500x280-c-center.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+    
 
 
 

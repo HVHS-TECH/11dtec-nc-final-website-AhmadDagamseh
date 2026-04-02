@@ -1,130 +1,74 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* Background image */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://populous.com/uploads/2018/01/Tottenham-Hotspur-Stadium_1-1-500x280-c-center.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: white;
 }
 
-body{
-    margin: 0;
+/* Dark overlay so text is readable */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  z-index: -1;
 }
 
-
-.logo {
-    margin-right: 100px;
-    justify-content: left;
-    border-radius: 30px;
-    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
-    
-  }
-
-
-.wrapper{
-    display: flex;
-    gap: 20px;
-    padding: 50px;
-    /* width: 70%; */
-    margin: 0 auto;
- }
- 
- #p1h1{
-    text-align: center;
-    margin-bottom: 30px;
- }
- 
- .containor{
-   display: flex;
-   justify-content: center;
-   margin-top: 100px; 
- }
-
- .containor2{
-    display: flex;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    margin-top: 100px; 
-  }
-
- .card{
-    width: 3256px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
-    margin: 20px;
- }
-
- .card img{
-    width: 100%;
-    height: auto;
- }
-
- .content{
-    padding: 16px;
-}
-
-.content h2{
-    text-align: center;
-    font-size: 28px;
-    margin: 10px;
-}
-
-footer{
-    color: white;
-    background-color:rgb(30, 84, 199);
-
-    .cont{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    ul{
-        margin-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    li{
-        padding: 0 15px;
-        margin-bottom: 16px;
-    }
-
-    a{
-        font-size: 14px;
-        font-weight: 500;
-        color: white;
-    }
+/* Navbar */
+.navbar {
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    background-color: #575757;
-    justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
 }
 
-
-.navbar li a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-
-.navbar li a:hover {
-    background-color: #888888;
+.navbar a:hover {
+  color: #00aaff;
 }
 
-
-body {
-  background-image: url("https://populous.com/uploads/2018/01/Tottenham-Hotspur-Stadium_1-1-500x280-c-center.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+/* Main layout */
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
 }
-    
 
+/* Logo */
+.logo {
+  border-radius: 10px;
+}
 
+/* Text section */
+.pone {
+  max-width: 600px;
+  background: rgba(0,0,0,0.6);
+  padding: 25px;
+  border-radius: 10px;
+}
 
-    
+#p1h1 {
+  margin-top: 0;
+  font-size: 32px;
+}

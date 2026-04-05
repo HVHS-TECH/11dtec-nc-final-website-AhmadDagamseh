@@ -133,7 +133,7 @@ footer{
 
 
 .navbar li a:hover {
-    background-color: #888888;
+    background-color: #888888a4;
 }
 .navbar2 ul {
     list-style-type: none;

@@ -119,11 +119,8 @@ footer{
 
 
 .navbar li a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
+    color: rgb(102, 102, 102);
+    
 }
 
 

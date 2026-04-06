@@ -22,13 +22,7 @@ body{
 
 
 
-.wrapper{
-    display: flex;
-    gap: 20px;
-    padding: 50px;
-    /* width: 70%; */
-    margin: 0 auto;
- }
+
  
  #p1h1{
     text-align: center;
@@ -45,7 +39,7 @@ body{
  .containor2{
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+   
     margin-top: 100px;
   }
 

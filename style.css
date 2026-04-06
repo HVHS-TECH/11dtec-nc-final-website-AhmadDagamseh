@@ -16,6 +16,7 @@ body{
     justify-content: left;
     border-radius: 30px;
     box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    
    
   }
   
@@ -54,6 +55,7 @@ body{
     overflow: hidden;
     box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
     margin: 20px;
+    
  }
 
 
@@ -167,29 +169,7 @@ body.home {
 
 
 
-.home-layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    padding: 40px;
-}
 
-.left-side {
-    flex: 1;
-}
-
-.right-side {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.collage {
-    width: 100%;
-    max-width: 750px;
-    border-radius: 20px;
-}
 
 
    

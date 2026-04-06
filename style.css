@@ -167,7 +167,29 @@ body.home {
 
 
 
+.home-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
 
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.collage {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 20px;
+}
 
 
    

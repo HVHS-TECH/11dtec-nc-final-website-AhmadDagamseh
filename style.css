@@ -29,6 +29,13 @@ body{
 
     margin: 0 auto;
  }
+ .wrapper2{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+
+    margin: 0 auto;
+ }
  
  #p1h1{
     text-align: center;

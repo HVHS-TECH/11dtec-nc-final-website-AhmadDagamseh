@@ -18,10 +18,13 @@ body{
     box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
    
   }
-
-
-
-
+  .logo2 {
+    margin-right: 100px;
+    justify-content: left;
+    border-radius: 30px;
+    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+   
+  }
 .wrapper{
     display: flex;
     gap: 20px;
@@ -29,13 +32,7 @@ body{
 
     margin: 0 auto;
  }
- .wrapper2{
-    display: flex;
-    gap: 20px;
-    padding: 50px;
 
-    margin: 0 auto;
- }
  
  #p1h1{
     text-align: center;

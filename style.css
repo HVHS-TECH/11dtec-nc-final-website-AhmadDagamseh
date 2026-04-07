@@ -3,13 +3,9 @@ margin: 0px;
 padding: 0px;
 }
 
-
 body{
 margin: 0;
 }
-
-
-
 
 .logo {
 margin-right: 100px;
@@ -25,7 +21,6 @@ padding: 50px;
 margin: 0 auto;
 }
 
- 
 #ad{
 text-align: center;
 margin-bottom: 30px;
@@ -37,13 +32,11 @@ justify-content: center;
 margin-top: 100px;
 }
 
-
 .containor2{
 display: flex;
 justify-content: center;
 margin-top: 100px;
 }
-
 
 .af{
 width: 3256px;
@@ -51,20 +44,16 @@ border-radius: 30px;
 overflow: hidden;
 box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
 margin: 20px;
-    
 }
-
 
 .af img{
 width: 100%;
 height: auto;
 }
 
-
 .content{
 padding: 16px;
 }
-
 
 .content h2{
 text-align: center;
@@ -73,9 +62,10 @@ margin: 10px;
 }
 
 
-footer{
-color: white;
-background-color:rgb(30, 84, 199);}
+.footer{
+color: rgb(112, 112, 112);
+background-color:rgba(255, 255, 255, 0);
+}
 
 
 .cont {

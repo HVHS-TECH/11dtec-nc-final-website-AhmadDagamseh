@@ -49,7 +49,7 @@ body{
   }
 
 
- .card{
+ .af{
     width: 3256px;
     border-radius: 30px;
     overflow: hidden;
@@ -59,7 +59,7 @@ body{
  }
 
 
- .card img{
+ .af img{
     width: 100%;
     height: auto;
  }

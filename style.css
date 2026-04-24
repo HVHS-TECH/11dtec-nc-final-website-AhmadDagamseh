@@ -39,7 +39,8 @@ margin-top: 100px;
 }
 
 .af{
-width: 3256px;
+width: 90%;
+max-width: 1200px;
 border-radius: 30px;
 overflow: hidden;
 box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
@@ -97,7 +98,7 @@ color: white;
 list-style-type: none;
 margin: 0;
 padding: 10px;
-background-color: #57575700;
+background-color: #000000;
 justify-content: center;
 }
 
@@ -150,4 +151,11 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed; 
 background-position: center;
+}
+
+.note {
+font-size: 12px;
+color: #000000;
+text-align: center;
+margin-top: 10px;
 }
